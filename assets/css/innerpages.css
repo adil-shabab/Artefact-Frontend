@@ -343,7 +343,7 @@
     .portfolio-pg-style1 .tc-latest-cases-style1 .filter .links a.active {
       color: var(--color-orange1); }
   .portfolio-pg-style1 .tc-latest-cases-style1 .content {
-    padding: 150px 0;
+    padding: 150px 0 0;
     border-top: 1px solid #ccc; }
     .portfolio-pg-style1 .tc-latest-cases-style1 .content .case-card {
       position: relative;
@@ -1528,6 +1528,12 @@
       color: var(--color-orange1); }
     .about-pg-style1 .inner-navbar-style1 .nav-side a {
       color: #fff; }
+    .about-pg-style1 .inner-navbar-style1 .navbar-nav .nav-link:hover{
+      color: var(--color-orange1) !important;
+    }
+    .inner-navbar-style1 .navbar-nav .nav-link:hover{
+      color: var(--color-orange1) !important;
+    }
   @media screen and (max-width: 991px) {
     .about-pg-style1 .inner-navbar-style1 {
       position: relative;
@@ -2532,10 +2538,11 @@
   position: relative;
   padding-bottom: 40px; }
   .inner-pages-style1 .tc-inner-header-style1 h1 {
-    font-size: 250px;
-    font-weight: 500;
-    line-height: 300px;
-    letter-spacing: -0.05em;
+    font-size: 120px;
+    font-weight: bolder;
+    line-height: unset;
+    margin-top: 100px;
+    letter-spacing: -0.02em;
     color: #000; }
 
 .inner-pages-style1 .pagination {
