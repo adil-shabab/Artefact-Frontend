@@ -1140,3 +1140,15 @@ html[lang="ar"] .home-style1 {
     transform: rotateX(180deg); }
   html[lang="ar"] .home-style1 .loader-wrap {
     direction: ltr; }
+
+
+
+
+    @media screen and (max-width: 489px) {
+      .about-pg-style1 .tc-process-style2 .imgs .img .txt{
+        font-size: 17px !important;
+      }
+      .about-pg-style1 .tc-about-style7 .numbers .number-card h2{
+        font-size: 48px !important;
+      }
+    }

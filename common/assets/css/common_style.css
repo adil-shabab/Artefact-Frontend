@@ -1817,7 +1817,28 @@ input:focus {
   .tc-chat-style1{
     padding: 60px 0px !important;
   }
+  .fz__16{
+    font-size: 16px !important;
+  }
+  .fz__35{
+    font-size: 35px !important;
+  }
+  .fz__30{
+    font-size: 30px !important;
+  }
   .fz__20{
     font-size: 20px !important;
+  }
+  .about-pg-style1 .tc-about-style7 .numbers .number-card{
+    margin-bottom: 30px !important;
+  }
+  .about-pg-style1 .tc-process-style2 .accordion-item .accordion-button h3{
+    font-size: 19px !important;
+  }
+  .about-pg-style1 .tc-process-style2 .accordion-item .accordion-body .text{
+    font-size: 12px !important;
+  }
+  .about-pg-style1 .tc-process-style2 .imgs .img .txt{
+    font-size: 17px !important;
   }
 }
