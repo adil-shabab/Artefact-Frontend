@@ -1,5 +1,9 @@
 /* ========= [ * global ]  =========*/
 /* --------------- global --------------- */
+html,body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
 *,
 * button:focus {
   outline: 0;
@@ -1756,3 +1760,64 @@ input:focus {
   color: #fff !important; }
   .hover-bg-black:hover * {
     color: #fff; }
+
+
+@media screen and (max-width: 489px) {
+  .navbar{
+    position: absolute !important;
+    background-color: unset !important;
+  }
+  .loader-wrap .loader-wrap-heading .load-text {
+    font-size: 11px;
+  }
+  .tc-experience-style1 .img{
+    opacity: 1 !important;
+    margin-top: 100px;
+  }
+  .tc-services-style1 .title p{
+    letter-spacing: 10px !important;
+    opacity: 1 !important;
+  }
+  .mb_sm_10{
+    margin-bottom: 20px !important;
+  }
+  .mt_sm_20{
+    margin-top: 25px !important;
+  }
+  .tc-process-style1 .img{
+    opacity: 1 !important;
+  }
+  .tc-projects-style1 .tabs-links .nav-pills .nav-link{
+    margin-inline-end: unset !important;
+    font-size: 15px !important;
+    -webkit-margin-end: unset !important;
+  }
+  .gap_10{
+    gap: 20px !important;
+  }
+  .fw__500_23{
+    font-weight: 500 !important;
+    font-size: 23px !important;
+  }
+  .tc-testimonials-style1 .tc-clients-style1 .slider-controls{
+    bottom: 120px !important;
+  }
+  .tc-team-style1{
+    padding: 40px 0px !important;
+  }
+  .swiper-button-next{
+    display: none !important; 
+  }
+  .swiper-button-prev{
+    display: none !important; 
+  }
+  .tc-blog-style1 .blog-card .info{
+    padding-top: 20px !important;
+  }
+  .tc-chat-style1{
+    padding: 60px 0px !important;
+  }
+  .fz__20{
+    font-size: 20px !important;
+  }
+}
